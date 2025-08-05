@@ -15,12 +15,19 @@ Includes a complete data pipeline, training script, evaluation module, and real-
 
 2. Directory Structure
 
-.
+
 ├── preprocess.py              # Preprocessing FER-2013 dataset
+
 ├── train_5class.py            # Model training script
+
 ├── test_5class.py             # Evaluation on test set
+
 ├── real_time_5class.py        # Real-time webcam inference
+
 ├── model/                     # Folder for storing .pth model
+
 ├── data/                      # Preprocessed data directory
+
 ├── results/                   # Accuracy, loss, confusion matrix (optional)
+
 └── README.md
