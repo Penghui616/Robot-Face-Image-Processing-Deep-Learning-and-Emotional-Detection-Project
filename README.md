@@ -24,11 +24,14 @@ Includes a complete data pipeline, training script, evaluation module, and real-
 
 ├── real_time_5class.py        # Real-time webcam inference
 
+├── best_model_5class.pth
+
 └── README.md
 
 3. Installation
 
 You also need to download and preprocess the FER-2013 dataset (see preprocess.py), and place it in the expected data/ directory structure
+Links：https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer/data
 
 4. Model Architecture
 Backbone: Pretrained VGG16 (torchvision.models)
