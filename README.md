@@ -109,10 +109,12 @@ Pillow
 
 
 
-8. Model Weights
+
+9. Model Weights
 To run real-time detection, download the trained model:
 
 best_model_5class.pth
-Place it in a model/ folder, or update the path in your scripts accordingly.
+
+
 
 
