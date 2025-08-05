@@ -1,51 +1,26 @@
 # Robot-Face-Image-Processing-Deep-Learning-and-Emotional-Detection-Project
 A real-time facial emotion recognition system using deep learning and image processing. Built with a modified VGG16 CNN model trained on the FER-2013 dataset, this project uses PyTorch and OpenCV to classify emotions (happy, sad, angry, surprised, neutral) from live webcam input.
-📌 Project Overview
-🎯 Goal: Accurately classify human facial emotions in real-time using a webcam stream.
 
-📸 Input: Real-time grayscale video frames captured from webcam.
+1. Project Summary
+   
+Built with PyTorch and OpenCV for real-time facial emotion classification.
 
-🧠 Model: Modified VGG16 CNN architecture trained on a cleaned version of the FER-2013 dataset.
+Modified VGG16 backbone with custom classifier layers.
 
-😃 Output: One of 5 emotions: Happy, Sad, Neutral, Angry, or Surprised.
+Trained on preprocessed FER-2013 images, converted to RGB and resized to 224x224.
 
-🛠 Features
-✅ Real-time emotion detection using webcam
+Final model achieves 74.05% test accuracy and F1-score of 0.77.
 
-✅ CNN trained on 35,000+ labeled facial images
+Includes a complete data pipeline, training script, evaluation module, and real-time inference demo.
 
-✅ Live face detection using Haar cascades
+2. Directory Structure
 
-✅ Visual overlay of predicted emotion on video stream
-
-✅ Robust performance with ~74% test accuracy and F1-score of 0.77
-
-🧠 Model Architecture
-Backbone: VGG16 (modified for 5-class emotion classification)
-
-Preprocessing:
-
-Convert to grayscale
-
-Resize to 224x224
-
-Normalize pixel values
-
-Classifier:
-
-Fully connected layers with ReLU and Dropout
-
-Output layer with Softmax
-
-Frameworks: PyTorch, OpenCV, Scikit-learn, Seaborn
-
-📊 Performance
-Metric	Value
-Training Acc.	81.20%
-Validation Acc.	~72.30%
-Test Accuracy	74.05%
-Weighted F1	0.77
-
-The model performs best on happy (F1: 0.83) and surprised (F1: 0.78), with some confusion between neutral and sad expressions. See the confusion matrix and training graphs in /results.
-
-🖥️ Live Demo Example
+.
+├── preprocess.py              # Preprocessing FER-2013 dataset
+├── train_5class.py            # Model training script
+├── test_5class.py             # Evaluation on test set
+├── real_time_5class.py        # Real-time webcam inference
+├── model/                     # Folder for storing .pth model
+├── data/                      # Preprocessed data directory
+├── results/                   # Accuracy, loss, confusion matrix (optional)
+└── README.md
