@@ -104,8 +104,18 @@ seaborn
 
 Pillow
 
+
 8.Result
+
+
 <img width="868" height="498" alt="屏幕截图 2025-04-19 142021" src="https://github.com/user-attachments/assets/82397862-f354-4a0e-80d8-cb45cb08677d" />
+
+
+The accuracy rate increased from 59% to 74%.
+
+
+<img width="1242" height="470" alt="image" src="https://github.com/user-attachments/assets/bd5e2941-6778-43f1-b0ed-6b9b7909c16f" />
+
 
 
 
