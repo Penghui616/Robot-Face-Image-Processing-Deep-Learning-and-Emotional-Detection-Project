@@ -111,6 +111,8 @@ To run real-time detection, download the trained model:
 
 best_model_5class.pth
 
+This is my trained model links:https://drive.google.com/file/d/1sTD86qeprFU4XP6st91Zn1BvrB9SciJq/view?usp=drive_link
+
 9.Result
 
 <img width="868" height="498" alt="屏幕截图 2025-04-19 142021" src="https://github.com/user-attachments/assets/82397862-f354-4a0e-80d8-cb45cb08677d" />
